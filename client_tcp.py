@@ -214,14 +214,14 @@ def mainMenu():
 			print("Opção inválida! Tente novamente.")
 
 
-# if len(sys.argv) != 3:
-#     print('%s <ip> <porta>' %sys.argv[0])
-#     sys.exit(0)
+if len(sys.argv) != 3:
+    print('%s <ip> <porta>' %sys.argv[0])
+    sys.exit(0)
 
-# ip = sys.argv[1]
-# porta = sys.argv[2]
+ip = sys.argv[1]
+porta = sys.argv[2]
 
-ip = "localhost"
-porta = "5000"
+# ip = "localhost"
+# porta = "5000"
 
 mainMenu()
